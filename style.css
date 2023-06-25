@@ -44,6 +44,14 @@ h3 {
 	color: rgb(87, 86, 86);
 }
 
+.user {
+	transition: all 0.3s ease-in-out;
+}
+.user:hover {
+	/* transition hover'a verilmez  */
+	box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
 .left-bottom {
 	display: flex;
 	gap: 20px;
@@ -52,14 +60,22 @@ h3 {
 	position: relative;
 	border: 1.5px solid #d3d3d3;
 	border-radius: 10px;
-	height: 220px;
+	transition: all 0.3s;
+}
+
+.left-bottom-left a {
+	display: flex;
+	flex-direction: column;
 }
 .left-bottom-left img {
+	display: block;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 }
+
 .left-bottom .under-img {
 	padding: 6px 0px;
+	flex: 1;
 	font-size: 18px;
 	background-color: #fff;
 	color: #4b4f56;
@@ -71,8 +87,8 @@ h3 {
 	font-size: 0.7rem;
 	background-color: red;
 	color: #fff;
-	width: 17px;
-	height: 17px;
+	width: 25px;
+	height: 25px;
 	border-radius: 50%;
 	padding: 5px;
 	display: flex;
@@ -82,10 +98,28 @@ h3 {
 	top: -3px;
 	right: -3px;
 }
-.kaldir {
+
+.close {
+	transition: 0.1s;
+	font-size: 0.7rem;
 	position: absolute;
-	background-color: rgb(78, 77, 77);
+	background-color: rgb(141, 140, 140);
 	color: white;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 4px;
+	left: 4px;
+}
+.left-bottom-left:hover .close {
+	background-color: #fff;
+	color: #525252;
+	top: 0;
+	left: 0;
+	transform: scale(1.5);
 }
 
 .left-bottom-right {
@@ -97,7 +131,8 @@ h3 {
 	border-radius: 10px;
 }
 
-.icon {
+.left-bottom-right i {
+	font-size: 45px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
