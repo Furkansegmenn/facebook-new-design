@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #f2f4f7;
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	padding: 82px;
+	display: flex;
+	justify-content: center;
+	gap: 200px;
+}
+.box1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.img img {
+	display: block;
+	height: 45px;
+	margin-left: -7px;
+}
+h3 {
+	margin-top: 0.3rem;
+	color: rgb(28, 30, 33);
+	font-size: 28px;
+	font-weight: 500;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.para1 {
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+.para1 p {
+	font-size: 0.8rem;
+	font-weight: lighter;
+	color: rgb(87, 86, 86);
+}
+
+.left-bottom {
+	display: flex;
+	gap: 20px;
+}
+.left-bottom-left {
+	position: relative;
+	border: 1.5px solid #d3d3d3;
+	border-radius: 10px;
+	height: 220px;
+}
+.left-bottom-left img {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.left-bottom .under-img {
+	padding: 6px 0px;
+	font-size: 18px;
+	background-color: #fff;
+	color: #4b4f56;
+	text-align: center;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.bildirim {
+	font-size: 0.7rem;
+	background-color: red;
+	color: #fff;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -3px;
+	right: -3px;
+}
+.kaldir {
+	position: absolute;
+	background-color: rgb(78, 77, 77);
+	color: white;
+}
+
+.left-bottom-right {
+	background-color: #f5f6f7;
+	display: flex;
+	flex-direction: column;
+	width: 180px;
+	border: 1.5px solid #d3d3d3;
+	border-radius: 10px;
+}
+
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 180px;
+}
+
+.box2 {
+	margin: 3rem;
+}
+
+form {
+	text-align: center;
+	margin-top: 0px;
+	width: 396px;
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+form input {
+	outline: none;
+	padding: 14px 16px;
+	margin-bottom: 0.8rem;
+	font-size: 17px;
+	width: 100%;
+	color: rgb(29, 33, 41);
+}
+form input:focus {
+	border: 1px solid rgb(114, 141, 209);
+	opacity: 0.8;
+}
+.form-control {
+	border-radius: 5px;
+	border: 1px solid #dddfe2;
+}
+form .btn {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	color: white;
+
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.btn-giris {
+	padding: 10px;
+	width: 100%;
+	background-color: rgb(24, 119, 242);
+	font-size: 20px;
+}
+.box2 form .a {
+	margin-top: 15px;
+}
+.box2 form .a a {
+	color: #1877f2;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.box2 form .a a:hover {
+	text-decoration: underline;
+}
+
+.box2 form .border-inline {
+	align-items: center;
+	border-bottom: 1px solid #dadde1;
+	display: flex;
+	margin: 20px 16px;
+	text-align: center;
+}
+
+.btn-kaydol {
+	padding: 12px;
+	background-color: rgb(66, 183, 42);
+	font-size: 17px;
+}
+.btn-kaydol:hover {
+	background-color: rgb(66, 183, 100);
+}
+.last-p {
+	text-align: center;
+	border-top: none;
+	color: #1c1e21;
+	font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 25px;
+}
+.last-p a {
+	color: inherit;
+	font-weight: bolder;
+}
+.last-p a:hover {
+	text-decoration: underline;
+}
